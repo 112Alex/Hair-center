@@ -1,0 +1,463 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+ 
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ 
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ 
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+ 
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+ 
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+ 
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+ 
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ 
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+
+
+
+
+
+
+
+.body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  font-family: 'Rubik', sans-serif;
+  background-color: #E5E5E5;
+}
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.content {
+  flex: 1 1 auto;
+}
+
+.nav__row {
+  display: flex;
+  flex: 0 0 auto;
+
+  justify-content: space-between;
+}
+.nav-1__row {
+  display: flex;
+  flex-direction: row;
+}
+.nav__logo {
+  padding: 20px 120px 10px 10px;
+}
+.nav__logo img{
+  min-width: 100%;
+  max-width: 42px;
+}
+.nav__body {
+
+}
+.nav__list {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+.nav__list li {
+  padding: 30px 10px;
+}
+.nav-adress__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav__adress {
+  margin: 30px 20px 20px 100px;
+}
+
+.nav__btn {
+  display: flex;
+
+  align-items: flex-end;
+  position: relative;
+
+  margin: 15px 0;
+  padding: 30px 15px 15px 15px;
+  background-color: #D3B288;
+  border: none;
+  border-radius: 5px;
+  min-width: 144px;
+  height: 36px;
+}
+.nav__btn a {
+  align-items: center;
+  justify-content: baseline;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+
+
+
+
+.what {
+  background: url('/img/firs-page-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.what__row {
+  display: flex;
+  margin: 0 0 0 110px;
+}
+.what__border {
+  border: #FFFFFF solid 20px;
+}
+.what__body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #D3B288;
+  
+  box-sizing: border-box;
+  width: 526px;
+  height: 700px;
+
+  background: #FFFFFF;
+}
+.what__title {
+  display: flex;
+
+  padding: 0 0 25px 50px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+
+  color: #333333;
+}
+.what__subtitle {
+  display: flex;
+
+  padding: 0 0 30px 50px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #333333;
+}
+.what__button {
+  box-sizing: content-box;
+
+  width: 236px;
+  height: 42px;
+  margin: 0 0 0 50px;
+
+  background: #D3B288;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.about {
+  margin-top: 150px;
+}
+.about__container {
+  max-width: 1080px;
+  margin: 0px auto;
+}
+.about__row {
+  display: flex;
+}
+.about__img {
+  width: 416px;
+  height: 400px;
+  margin: 0 134px 0 0;
+
+  border-radius: 10px;
+}
+.about-text__row {
+}
+.about__title {
+  margin: 0 0 40px 0;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+
+  color: #D3B288;
+}
+.about__text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  width: 526px;
+
+  color: #333333;
+}
+.two {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.consultation {
+  margin: 150px 0;
+}
+.consultation__container {
+  max-width: 1080px;
+  margin: 0px auto;
+}
+.consultation__row {
+  display: flex;
+}
+.consultation__row-left {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 306px;
+  margin: 0 24px 0 0;
+}
+.consultation__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+
+  color: #D3B288;
+}
+.consultation__subtitle {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+.consultation__row-right {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.consultation__item {
+  display: flex;
+  flex-direction: column;
+}
+.consultation__item:nth-child(4) {
+  padding: 50px 0 0 0;
+}
+.consultation__item:nth-child(5) {
+  padding: 50px 0 0 0;
+}
+.consultation__item:nth-child(6) {
+  padding: 50px 0 0 0;
+}
+.consultation__item:nth-child(7) {
+  padding: 50px 0 0 0;
+}
+.consultation__item:nth-child(8) {
+  padding: 50px 0 0 0;
+}
+.consultation__item:nth-child(9) {
+  padding: 50px 0 0 0;
+}
+.consultation__img {
+  align-self: center;
+}
+.consultation__item-title {
+  max-width: 306px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+
+  text-align: center;
+}
